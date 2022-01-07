@@ -13,3 +13,17 @@ programs. For example, reading and writing ONE CHARACTER AT A TIME is
 very slow, especially on DOS. It's much faster if you use buffers. But
 as a demo for how to get started in programming, this is not a bad
 place to start.
+
+
+HOW TO USE THESE FILES:
+
+Run SETENV.BAT to set your environment.
+(This sets the PATH for the IA-16 GCC compiler, sets an alias for
+EDLIN16 as EDLIN, and unloads the CuteMouse driver)
+
+Run BUILD.BAT to build all the programs.
+
+Run CLEAN.BAT to clean up the build and start fresh.
+
+Run T.BAT to test the programs.
+(Also uses TEST.TXT, TEST30.TXT, and TESTLONG.TXT)
