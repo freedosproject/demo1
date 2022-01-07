@@ -1,0 +1,3 @@
+WCL -q CCTYPE.C
+WCL -q GUESS.C
+WCL -q SOL1.C
